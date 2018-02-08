@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="index.css">
+<meta charset="utf-8">
+<html>
+<head>
+	<title>SAMSUNG</title>
+</head>
+<body>
+
+	<div id="login">
+		<ul>
+			<li>LOGIN</li>
+			<li> <input id="text" type="password" name="" placeholder="ingrese ID"></li>
+			<li> <input id="password" type="password" name="" placeholder="ingrese su clave"></li>
+			<li> <input id="enviar" type="button" name="" value="ENTRAR"></li>
+		</ul>
+
+
+
+	 </div>
+
+	<h1 id="h"> CALCULAR TASA TELEFONOS</h1>
+
+	
+
+	<div id="cuadro_principal">
+
+	<p id="tasa" value="230000"> SU TASA HOY ES 230.000</p>
+	<input type="button" name="" value="calcular" onclick="myfunction()">
+
+</div>
+
+<h1 id="text_samsung">SAMSUNG</h1>
+
+<div id="j1" class="telefono"><a class="box"> SAMSUNG J1 ACE 
+	<p id="s_sol"> 0</p>
+
+</a></div>
+
+<div id="j2" class="telefono"><a class="box" >SAMSUNG EXPRESS
+<p id="pj2"> 0</p>
+</a></div>
+
+<div  id="j2p" class="telefono"><a class="box">SAMSUNG J2 PRIME
+<p id="pj2p">0 </p>
+</a></div>
+
+<div  id="j5" class="telefono"><a class="box">SAMSUNG J5 PRIME
+<p id="pj5">0 </p>
+</a></div>
+
+<div  id="j5p" class="telefono"><a class="box">SAMSUNG J5 PRO
+<p id="pj5p">0 </p>
+</a></div>
+
+<div id="j7" class="telefono"><a class="box">SAMSUNG J7 PRIME
+<p id="pj7">0 </p>
+</a></div>
+
+<div  id="j7p" class="telefono"><a class="box">SAMSUNG J7 PRO
+<p id="pj7p">0 </p>
+</a></div>
+
+<div  id="ss7" class="telefono"><a class="box">SAMSUNG S7 EDGE
+<p id="tss7">0 </p>
+</a></div>
+
+<div  id="ss8" class="telefono"><a class="box">SAMSUNG S8
+<p id="tss8">0 </p>
+</a></div>
+
+<div  id="ss8p" class="telefono"><a class="box">SAMSUNG S8 PLUS
+<p id="tss8p">0 </p>
+</a></div>
+
+<div  id="snote8" class="telefono"><a class="box">SAMSUNG NOTE8
+<p id="tsnote8">0 </p>
+</a></div>
+
+
+
+<script>
+
+	function limpiar(){
+
+	}
+	
+var s_ssol = 115;
+var s_express = 100;
+var s_j2p = 130;
+var s_j5 = 320;
+var s_j5pro = 205;
+var s_j7prime = 250;
+var s_j7pro = 260;
+var s_s7edge = 500;
+var s_s8 = 700;
+var s_s8plus= 800;
+var s_note8 = 1000;
+
+
+	function myfunction() {
+		
+var tasa = document.getElementById('tasa').value = 230000;
+
+document.getElementById('s_sol').innerHTML = (tasa*s_ssol) +" "+ "BSF";
+
+document.getElementById('pj2').innerHTML = (tasa*s_express)+" "+ "BSF";
+document.getElementById('pj2p').innerHTML = (tasa*s_j2p) +" "+ "BSF";
+
+document.getElementById('pj5').innerHTML = (tasa*s_j5) +" "+ "BSF";
+document.getElementById('pj5p').innerHTML = (tasa*s_j5pro) +" "+ "BSF";
+document.getElementById('pj7').innerHTML = (tasa*s_j7prime) +" "+ "BSF";
+
+document.getElementById('pj7p').innerHTML = (tasa*s_j7pro) +" "+ "BSF";
+
+document.getElementById('tss7').innerHTML = (tasa*s_s7edge) +" "+ "BSF";
+document.getElementById('tss8').innerHTML = (tasa*s_s8) +" "+ "BSF";
+document.getElementById('tss8p').innerHTML = (tasa*s_s8plus) +" "+ "BSF";
+document.getElementById('tsnote8').innerHTML = (tasa*s_note8) +" "+ "BSF";
+}
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

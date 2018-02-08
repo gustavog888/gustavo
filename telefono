@@ -85,17 +85,17 @@
 
 	}
 	
-var s_ssol = 115;
-var s_express = 100;
-var s_j2p = 130;
-var s_j5 = 320;
-var s_j5pro = 205;
-var s_j7prime = 250;
-var s_j7pro = 260;
-var s_s7edge = 500;
-var s_s8 = 700;
-var s_s8plus= 800;
-var s_note8 = 1000;
+var s_ssol 	= 115;
+var s_express 	= 100;
+var s_j2p 	= 130;
+var s_j5 	= 320;
+var s_j5pro 	= 205;
+var s_j7prime 	= 250;
+var s_j7pro 	= 260;
+var s_s7edge 	= 500;
+var s_s8 	= 700;
+var s_s8plus	= 800;
+var s_note8 	= 1000;
 
 
 	function myfunction() {
